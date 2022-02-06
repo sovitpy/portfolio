@@ -46,6 +46,35 @@ const projects = [
   },
 ]
 
+const certifications = [
+  // projects can be added an removed
+  // if there are no projects, Projects section won't show up
+  {
+    name: 'Certificate 1',
+    description:
+      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+    stack: ['SASS', 'TypeScript', 'React'],
+    sourceCode: 'https://github.com',
+    livePreview: 'https://github.com',
+  },
+  {
+    name: 'Certificate 2',
+    description:
+      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+    stack: ['SASS', 'TypeScript', 'React'],
+    sourceCode: 'https://github.com',
+    livePreview: 'https://github.com',
+  },
+  {
+    name: 'Certificate 3',
+    description:
+      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+    stack: ['SASS', 'TypeScript', 'React'],
+    sourceCode: 'https://github.com',
+    livePreview: 'https://github.com',
+  },
+]
+
 const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
@@ -68,4 +97,4 @@ const contact = {
   email: 'johnsmith@mail.com',
 }
 
-export { header, about, projects, skills, contact }
+export { header, about, projects, skills, contact, certifications }
