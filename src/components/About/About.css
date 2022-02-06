@@ -20,13 +20,13 @@
  
 .about__image {
   width: 100%;
-  border-radius: 50%;
+  /* border-radius: 50%; */
   display: block;
 }
 
 .image-container{
   width: 30%;
-  border-radius: 50%;
+  /* border-radius: 50%; */
   position: relative;
   margin: 0 auto 1em;
 }
