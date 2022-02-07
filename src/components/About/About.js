@@ -1,12 +1,22 @@
+import { useContext } from 'react'
 import GitHubIcon from '@material-ui/icons/GitHub'
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
 import { about } from '../../portfolio'
 import './About.css'
-import sovit from './sovit_try.png'
+import { ThemeContext } from '../../contexts/theme'
+import sovitlight from './sovit_light.png'
+import sovitdark from './sovit_dark.png'
+
 
 const About = () => {
   const { name, role, description, resume, social } = about
-
+  const [{ themeName }] = useContext(ThemeContext)
+  let sovit = ''
+  if (themeName === 'light') {
+  sovit = sovitlight
+  } else {
+  sovit = sovitdark
+  }
   return (
     <div className='about center'>
       <div className='about__bio'>

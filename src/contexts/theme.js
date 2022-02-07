@@ -31,4 +31,4 @@ ThemeProvider.propTypes = {
   children: PropTypes.node.isRequired,
 }
 
-export { ThemeProvider, ThemeContext }
+export { ThemeProvider, ThemeContext, }
