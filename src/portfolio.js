@@ -15,7 +15,8 @@ const about = {
     linkedin: 'https://linkedin.com/in/sovitlekhak',
     github: 'https://github.com/sovitpy',
     facebook: 'https://www.facebook.com/sovitpy',
-    instagram: 'https://www.instagram.com/sovitpy',
+    instagram: 'https://www.instagram.com/sovit.py',
+    tweet: 'https://twitter.com/sovitpy',
   },
 }
 

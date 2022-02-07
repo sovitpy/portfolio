@@ -10,24 +10,34 @@ const Footer = () => {
   const {social} = about
   return (
 <footer className='footer'>
-    <a
-      href={social.facebook}
-      className='icon'
+  <div className='footer__social'>
+    <a href={social.facebook}
+      className='icon link'
+      target='_blank'
+      aria-label='facebook'
+      rel='noopener noreferrer'
     >
       <FacebookIcon />
     </a>
     <a
-      href={social.twitter}
-      className='icon'
+      href={social.tweet}
+      className='icon link'
+      target='_blank'
+      aria-label='twitter'
+      rel='noopener noreferrer'
     >
       <TwitterIcon />
     </a>
     <a
       href={social.instagram}
-      className='icon'
+      className='icon link'
+      target='_blank'
+      aria-label='instagram'
+      rel='noopener noreferrer'
     >
       <InstagramIcon />
     </a>
+    </div>
   </footer>
   )
   }
