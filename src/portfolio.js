@@ -14,6 +14,8 @@ const about = {
   social: {
     linkedin: 'https://linkedin.com/in/sovitlekhak',
     github: 'https://github.com/sovitpy',
+    facebook: 'https://www.facebook.com/sovitpy',
+    instagram: 'https://www.instagram.com/sovitpy',
   },
 }
 
@@ -41,16 +43,24 @@ const projects = [
     description:
       "ISKUL is a web-based school administration application built with Django. It's a fully functional CRUD app that can manage students, teachers, classes, and other administrative tasks.",
     stack: ['Python', 'JavaScript', 'SQLite'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    sourceCode: 'https://github.com/geekyarthurs/iskul',
+    livePreview: 'https://youtu.be/uJxau-BqFfE?t=1960',
   },
   {
     name: 'NEPSE API',
     description:
       'This is an unofficial API for Nepal Stock Exchange(NEPSE). It can be used to fetch real-time stock prices and floor sheets.',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    stack: ['Python', 'JavaScript'],
+    sourceCode: 'https://github.com/scifisatan/nepse',
+    livePreview: 'https://api-nepse.herokuapp.com/',
+  },
+  {
+    name: 'COVID-19 BOT Nepal',
+    description:
+      'This bot tweets the daily updates on COVID-19 cases in Nepal. It uses the official API MoHP, Nepal to fetch the data.',
+    stack: ['Python',],
+    sourceCode: 'https://github.com/scifisatan/covidbot',
+    livePreview: 'https://twitter.com/NepalCovid19Bot',
   },
 ]
 
@@ -86,23 +96,19 @@ const certifications = [
 const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
-  'HTML',
-  'CSS',
-  'JavaScript',
-  'TypeScript',
-  'React',
-  'Redux',
-  'SASS',
-  'Material UI',
+  'Python',
+  'Machine Learning',
+  'Penetration Testing',
+  'Microcontroller Programming',
+  'Cloud Computing',
   'Git',
-  'CI/CD',
-  'Jest',
-  'Enzyme',
 ]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'sovitlekhak@gmail.com',
+  phone: '+9779841234567',
+  address: 'Kathmandu, Nepal',
 }
 
 export { header, about, projects, skills, contact, certifications }
