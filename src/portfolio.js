@@ -10,7 +10,7 @@ const about = {
   role: 'Machine Learning Enthusiast',
   description:
     'I am a Python developer with a keen interest in Machine Learning. I thrive in a fast-paced environment where I can learn and grow as a developer. I am constantly learning exploring new stuffs. I am currently flapping my wings in the "cloud" and learning cybersecurity.',
-  resume: 'https://drive.google.com/file/d/1E04dizC_JrwEy2jGbag5rllZMuCbw3Ud/view?usp=sharing',
+  resume: '/resume.pdf',
   social: {
     linkedin: 'https://linkedin.com/in/sovitlekhak',
     github: 'https://github.com/sovitpy',
