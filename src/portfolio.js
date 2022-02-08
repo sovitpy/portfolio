@@ -7,9 +7,9 @@ const header = {
 const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'Sovit Lekhak',
-  role: 'Machine Learning Enthusiast & a Python Developer',
+  role: 'Machine Learning Enthusiast',
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
+    'I am a Python developer with a keen interest in Machine Learning. I thrive in a fast-paced environment where I can learn and grow as a developer. I am constantly learning exploring new stuffs. I am currently flapping my wings in the "cloud" and learning cybersecurity.',
   resume: 'https://drive.google.com/file/d/1E04dizC_JrwEy2jGbag5rllZMuCbw3Ud/view?usp=sharing',
   social: {
     linkedin: 'https://linkedin.com/in/sovitlekhak',
