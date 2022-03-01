@@ -6,8 +6,6 @@
 
 .icon {
   margin-right: 0.8em;
-  text-decoration: none;
-  color: inherit;
 }
 
 @media (max-width: 600px) {
